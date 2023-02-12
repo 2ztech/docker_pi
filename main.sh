@@ -4,7 +4,7 @@
 sudo apt-get update
 
 #automatic install of docker
-sudo curl -sSL https://get.docker.com | sh
+curl -fsSL test.docker.com -o get-docker.sh && sh get-docker.sh
 
 #add pi to docker group
 sudo usermod -aG docker pi
