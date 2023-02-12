@@ -6,5 +6,5 @@ This is script to install Docker Engine and Portainer Community Edition
 
 Run the following command for automated installation
 ```bash
-  curl -sL https://raw.githubusercontent.com/lorimaju/docker_pi/main/main.sh | bash
+sudo curl -sL https://raw.githubusercontent.com/lorimaju/docker_pi/main/main.sh | bash
 ```
